@@ -2,8 +2,8 @@ let adminLogado = false;
 
 function loginAdmin() {
 
-  const email = prompt("Digite seu email:");
-  const senha = prompt("Digite sua senha:");
+  const email = prompt("Login de administrador:");
+  const senha = prompt("Login de administrador:");
 
   auth.signInWithEmailAndPassword(email, senha)
 
