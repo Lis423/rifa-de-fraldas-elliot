@@ -193,7 +193,7 @@ function atualizarPainel() {
 
 function atualizarProgresso() {
 
-  const total = 100;
+  const total = 150;
   const vendidos = Object.keys(dados).length;
 
   const porcentagem = (vendidos / total) * 100;
@@ -213,7 +213,7 @@ function render() {
 
   grid.innerHTML = "";
 
-  for (let i = 1; i <= 100; i++) {
+  for (let i = 1; i <= 150; i++) {
 
     const div = document.createElement("div");
     div.className = "num";
